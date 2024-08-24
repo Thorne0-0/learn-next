@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default async function Home() {
   // throw new Error("Home page is not ready");
-  const data = await fetch("https://jsonplaceholder.typicode.com/posts")
-  const todo = await data.json()
-  console.log(todo);
+  // const data = await fetch("https://jsonplaceholder.typicode.com/posts")
+  // const todo = await data.json()
+  // console.log(todo);
   
   return (
     <main>
-      <h1>{todo}</h1>
+      {/* <h1>{todo}</h1> */}
       <h1>欢迎学习Nextjs</h1>
       <Image src="/next.svg" width={100} height={100} alt="Next.js" />
     </main>

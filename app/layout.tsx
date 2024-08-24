@@ -26,12 +26,12 @@ export default function RootLayout({
             <li>
               <Link href={"/"}>Home</Link>
             </li>
-            {/* <li>
+            <li>
               <Link href={"/about"}>About</Link>
             </li>
             <li>
               <Link href={"/about/me"}>About下的Me</Link>
-            </li> */}
+            </li>
           </ul>
         </nav>
         {children}
