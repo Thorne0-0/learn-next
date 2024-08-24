@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main>
       <h1>欢迎学习Nextjs</h1>
+      <Image src="/next.svg" width={100} height={100} alt="Next.js" />
     </main>
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
