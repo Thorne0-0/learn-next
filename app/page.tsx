@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  throw new Error("Home page is not ready");
   return (
     <main>
       <h1>欢迎学习Nextjs</h1>
